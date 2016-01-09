@@ -1,0 +1,70 @@
+/* Project CSS 
+============================================================
+============================================================*/
+body {
+	width: 1440px;
+	font: 100%/1.2em "Helvetica Neue", Arial, sans-serif;
+	background: #FFF8E3;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #57574D;
+}
+
+section {
+	width: 1095px;
+	margin: 10px auto;
+}
+
+/* HEADER ============================== */
+header {
+	width: 1440px;
+	height: 75px;
+	padding-top: 15px;
+	padding-left: 120px;
+	margin-bottom: 0;
+	background: #33332D;
+	color: #DB4105;
+	font-weight: bolder;
+	font-family: "Verdana", Arial, sans-serif;
+}
+
+/* ABOUT ============================== */
+#about {
+	padding: 25px;
+	margin: 10px auto 0;
+	background: #D4CC93;
+	border: 3px solid #33332D;
+
+}
+
+/* COMPONENTS ============================== */
+#blog_feed {
+	width: 1095px;
+	background: #57574D;
+
+}
+
+article {
+	width: 1095px;
+	margin: 15px auto;
+	padding: 10px;
+	border: 3px solid #33332D;
+	text-align: center;
+	background: #D4CC93;
+
+}
+
+article h3 {
+
+}
+
+footer {
+	background: #33332D;
+	padding: 15px;
+	text-align: center;
+	color: #DB4105;
+}
