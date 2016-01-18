@@ -2,3 +2,112 @@
 ============================================================
 ============================================================*/
 
+body {
+	background-color: #fff;
+    color: #666;
+    font-family: "PT Sans",sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    min-width: 320px;
+    overflow: hidden;
+    width: 100%;
+}
+
+header {
+	width: 100%;
+	padding: 211px 0 211px;
+	background: #8a1215;
+}
+
+section {
+	width: 1170px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	text-transform: uppercase;
+	line-height: 0.75757576em;
+    letter-spacing: 0.08em;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 57px;
+	text-transform: uppercase;
+	line-height: 1.26315789em;
+    letter-spacing: 6px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+hr {
+	display: inline-block;
+    width: 170px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-top: 4px solid #ffffff;
+    margin-top: 47px;
+    margin-bottom: 7px;
+}
+
+p {
+
+	margin-top: 13px;
+	font-size: 17px;
+    line-height: 1.52941176;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+a {
+	display: inline-block;
+    font-weight: 400;
+    cursor: pointer;
+    border: 3px solid #F5D37C;
+    color: #fff;
+    outline: none;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    padding: 15px 36px;
+    margin-top: 51px;
+    font-size: 17px;
+    line-height: 19px;
+    border-radius: 0;
+    -moz-transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    transition: 0.2s all ease;
+}
+
+a:hover {
+	color: #8a1215;
+	background: #F5D37C;
+}
+
+#burger {
+	position: absolute;
+	top: 60px;
+	left: 75px;
+	cursor: pointer;
+}
+
+#line1 {
+	position: absolute;
+	top: 217px;
+	left: 533px;
+}
+
+#line2 {
+	position: absolute;
+	top: 217px;
+	left: 850px;
+}
+

@@ -1,4 +1,120 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+	background-color: #ccc;
+    font: 81.3%/1.2em "PT Sans",sans-serif;
+    margin: 0;
+    min-width: 320px;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer {
+	width: 100%;
+	padding-top: 93px;
+	padding-bottom: 122px;
+	color: #b3b2b2;
+	background-color: #fcfcfc;
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+#brandcopy {
+	width: 300px;
+	padding: 0 10px;
+	float: left;
+	font-weight: 700;
+	line-height: 1.6em;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 1.2em
+}
+
+address {
+	width: 380px;
+	padding: 0 10px;
+	float: left;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+address p:nth-child(2) {
+	width: 265px;
+	font-size: 36px;
+	font-weight: 700;
+	padding: 10px 0 12px;
+	margin-bottom: 18px;
+}
+
+address p:nth-child(2):hover {
+	border-bottom: 2px solid #82b77f;
+	margin-bottom: 17px;
+}
+
+#second {
+	color: #373b44;
+}
+
+address p:nth-child(3) {
+	width: 290px;
+}
+
+p a {
+	color: #82b77f;
+}
+
+p a:hover {
+	transition: 0.4s;
+	color: #373b44;
+}
+
+#social {
+	width: 220px;
+	padding: 0 10px;
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+	margin-left: 15px;
+}
+
+li:nth-child(1) {
+	width: 20px;
+}
+
+li:nth-child(2) {
+	width: 40px;
+	padding-top: 3px;
+}
+
+li:nth-child(3) {
+	width: 28px;
+	padding-top: 3px;
+}
+
+li:nth-child(4) {
+	width: 28px;
+	padding-top: 4px;
+}
+
+li img {
+	width: 100%;
+}
 

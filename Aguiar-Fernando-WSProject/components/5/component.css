@@ -1,4 +1,97 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body {
+	width: 100%;
+	font-family: "Roboto Slab", serif;
+}
+
+.white {
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 160px;
+	padding-bottom: 176px;
+	overflow: hidden;
+}
+
+.white h2 {
+	width: 1170px;
+	font-size: 38px;
+	line-height: 1.2;
+	text-align: center;
+	color: #f55959;
+	font-family: "Vidaloka", serif;
+	font-weight: 400;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.white img {
+	width: 470px;
+	padding: 0 15px;
+	float: right;
+	opacity: 0.7;
+	margin-top: 86px;
+}
+
+.white section {
+	width: 700px;
+	padding: 0 15px;
+	float: left;
+	margin-top: 74px;
+}
+
+.white section p {
+	text-align: left;
+	font-size: 20px;
+	line-height: 35px;
+	color: #323644;
+	font-weight: 300;
+}
+
+.white section p:nth-child(2) {
+	margin-top: 40px;
+} 
+
+.red {
+	width: 100%;
+	background-color: #f55959;
+	color: #fff;
+	padding-top: 169px;
+	padding-bottom: 160px;
+}
+
+.red div {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	overflow: hidden;
+}
+
+.red section{
+	width: 570px;
+	padding: 0 15px;
+	float: left;
+}
+
+.red h3 {
+	font-size: 28px;
+	line-height: 35px;
+	font-family: "Vidaloka", serif;
+	font-weight: 400;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.red p {
+	width: 570px;
+	margin-top: 80px;
+	padding-right: 42px;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 300;
+
+}
+
+
 

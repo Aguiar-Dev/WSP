@@ -1,4 +1,86 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+/*
+Roboto Slab, sans-serif - h3
+Open sans, sans-serif
+article backg - #43AB28
+section backg - #F9F9F9
+font color - #30353C
+*/
+body {
+	width: 100%;
+	font: 120%/1.2rem "Open sans", sans-serif;
+}
 
+section {
+	width: 100%;
+	padding: 75px 0 110px 0;
+	background-color: #F9F9F9;
+	text-align: center;
+}
+
+h3 {
+	display: block;
+	width: 1200px;
+	height: 36px;
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1rem;
+	margin: 0 auto 64px;
+	color: #30353C;
+}
+
+#row {
+	overflow: hidden;
+	width: 1300px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+article {
+	width: 270px;
+	max-width: 360px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+article:last-of-type {
+	margin-right: 0;
+}
+
+a {
+	display: inline-block;
+	width: 270px;
+	height: 75px;
+	margin-top: -5px;
+	padding-top: 25px;
+	background-color: #43AB28;
+	color: #fff;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #30353C;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.arrow {
+	width: 25.719px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.arrow:nth-of-type(1) {
+	position: relative;
+	top: 15px;
+	left: 555px;
+}
+
+.arrow:nth-of-type(2) {
+	position: relative;
+	top: 15px;
+	left: 565px;
+}

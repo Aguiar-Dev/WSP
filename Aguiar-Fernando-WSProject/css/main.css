@@ -2,7 +2,7 @@
 ============================================================
 ============================================================*/
 body {
-	width: 1440px;
+	width: 100%;
 	font: 100%/1.2em "Helvetica Neue", Arial, sans-serif;
 	background: #E5DDB1;
 }
@@ -23,8 +23,7 @@ section {
 header {
 	width: 1350px;
 	height: 85px;
-	position: absolute;
-	left: 45px;
+	margin: 0 auto;
 	padding-top: 2px;
 	padding-left: 50px;
 	background: #33332D;
@@ -38,7 +37,6 @@ header {
 	margin: 10px auto 0;
 	background: #FFF8E3;
 	border: 3px solid #33332D;
-	margin-top: 100px;
 }
 
 #about h2 {
@@ -76,8 +74,8 @@ article {
 
 #feature {
 	position: absolute;
-	left: 140px;
-	top: 305px;
+	left: 120px;
+	top: 300px;
 	display: inline-block;
 	width: 200px;
 	height: 40px;
@@ -85,6 +83,19 @@ article {
 	background: #33332D;
 	line-height: 1.6em;
 	color: #DB4105;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px;
+	border: 2px solid #000;
+	margin-top: 20px;
+	color: #DB4105;
+	font-weight: bold;
+}
+
+.btn:hover {
+	background-color: #33332D;
 }
 
 article:nth-child(even) img{
