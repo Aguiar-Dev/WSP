@@ -3,5 +3,123 @@
 ============================================================*/
 body {
 	width: 100%;
-	font: ;
+	font: 18px/1.6em "Tinos", sans-serif;
+	color: #757575;
+	background: #3D5270;
 }
+
+header {
+	text-align: center;
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+#icons {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+#icons ul {
+	width: 300px;
+	float: right;
+	list-style: none;
+	margin-right: 15px;
+}
+
+#icons li {
+	display: inline-block;
+	margin-left: 39px;
+	color: #fff;
+}
+
+#icons li:nth-child(1) {
+	margin: 0;
+}
+
+nav {
+	background: url("bgheader-01.png") no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+
+#brand {
+	width: 587px;
+	padding: 13px 119px 13px 15px;
+	overflow: hidden;
+}
+
+#brand h1 {
+	width: 240px;
+	color: #fff;
+	font-size: 120px;
+	float: right;
+}
+
+#brand a {
+	display: inline-block;
+	margin-top: 40px;
+	color: #fff;
+	font-family: 'Limelight', cursive;
+	text-align: center;
+}
+
+#brand small {
+	display: block;
+	font-size: 18px;
+	margin-top: 20px;
+    margin-left: 2px;
+    text-transform: uppercase;
+}
+
+#navli {
+	width: 852px;
+	padding: 0 15px;
+	float: right;
+	position: absolute;
+	top: 0;
+	left: 588px;
+}
+
+#navli ul {
+	width: 802px;
+	margin-left: 20px;
+	font-size: 20px;
+	list-style: none;
+}
+
+#navli li {
+	position: relative;
+	padding: 57px 0;
+	float: left;
+	margin-left: 55px;
+}
+
+#navli li a {
+	display: inline-block;
+	color: #434343;
+	text-transform: uppercase;
+}
+
+#navli a:hover {
+	transition: 0.4s;
+	color: #f59000;
+}
+
+#navli li:nth-child(1) a {
+	color: #f59000;
+}
+
+#navli li:nth-child(1) {
+	margin: 0;
+}
+
+
+
+
+
+
+
