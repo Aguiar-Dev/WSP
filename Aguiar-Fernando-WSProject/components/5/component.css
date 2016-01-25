@@ -6,7 +6,7 @@ body {
 	font-family: "Roboto Slab", serif;
 }
 
-.white {
+#white {
 	width: 1170px;
 	margin: 0 auto;
 	padding-top: 160px;
@@ -14,8 +14,9 @@ body {
 	overflow: hidden;
 }
 
-.white h2 {
+#white h2 {
 	width: 1170px;
+	position: relative;
 	font-size: 38px;
 	line-height: 1.2;
 	text-align: center;
@@ -26,7 +27,17 @@ body {
 	text-transform: uppercase;
 }
 
-.white img {
+#white h2::after {
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 5px;
+	background-color: #525460;
+	top: 65px;
+	left: 555px;
+}
+
+#white img {
 	width: 470px;
 	padding: 0 15px;
 	float: right;
@@ -34,14 +45,14 @@ body {
 	margin-top: 86px;
 }
 
-.white section {
+#white section {
 	width: 700px;
 	padding: 0 15px;
 	float: left;
 	margin-top: 74px;
 }
 
-.white section p {
+#white section p {
 	text-align: left;
 	font-size: 20px;
 	line-height: 35px;
@@ -49,11 +60,11 @@ body {
 	font-weight: 300;
 }
 
-.white section p:nth-child(2) {
+#white section p:nth-child(2) {
 	margin-top: 40px;
 } 
 
-.red {
+#red {
 	width: 100%;
 	background-color: #f55959;
 	color: #fff;
@@ -61,29 +72,40 @@ body {
 	padding-bottom: 160px;
 }
 
-.red div {
+#red div {
 	width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 	overflow: hidden;
 }
 
-.red section{
+#red section{
 	width: 570px;
 	padding: 0 15px;
 	float: left;
 }
 
-.red h3 {
+#red h3 {
 	font-size: 28px;
 	line-height: 35px;
+	position: relative;
 	font-family: "Vidaloka", serif;
 	font-weight: 400;
 	letter-spacing: 0.16em;
 	text-transform: uppercase;
 }
 
-.red p {
+#red h3::after {
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 3px;
+	background-color: #fff;
+	top: 60px;
+	left: 0;
+}
+
+#red p {
 	width: 570px;
 	margin-top: 80px;
 	padding-right: 42px;

@@ -36,6 +36,17 @@ h1 {
     letter-spacing: 0.08em;
 }
 
+h1::before, h1::after {
+content: "";
+display: inline-block;
+width: 5rem;
+height: 0.2rem;
+background: #fff;
+position: relative;
+top: -0.5rem;
+margin: 0 1rem;
+}
+
 h2 {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -92,22 +103,13 @@ a:hover {
 	background: #F5D37C;
 }
 
+a:active {
+    border-color: #8C100F;
+}
+
 #burger {
 	position: absolute;
 	top: 60px;
 	left: 75px;
 	cursor: pointer;
 }
-
-#line1 {
-	position: absolute;
-	top: 217px;
-	left: 533px;
-}
-
-#line2 {
-	position: absolute;
-	top: 217px;
-	left: 850px;
-}
-
